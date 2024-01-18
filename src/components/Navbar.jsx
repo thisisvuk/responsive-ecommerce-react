@@ -37,19 +37,19 @@ function Navbar({ changeTheme, currentTheme }) {
           <div className={`links ${navState ? "responsive-toggle" : ""}`}>
             <ul>
               <li>
-                <a href="#"> Home</a>
+                <a href="/"> Home</a>
               </li>
               <li>
-                <a href="#"> Shop</a>
+                <a href="/"> Shop</a>
               </li>
               <li>
-                <a href="#"> Deals</a>
+                <a href="/"> Deals</a>
               </li>
               <li>
-                <a href="#"> Blog</a>
+                <a href="/"> Blog</a>
               </li>
               <li>
-                <a href="#"> Cart</a>
+                <a href="/"> Cart</a>
               </li>
               <li onClick={changeTheme} className="color-mode">
                 {currentTheme === "dark" ? (
