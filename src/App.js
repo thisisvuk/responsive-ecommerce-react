@@ -11,6 +11,7 @@ import Promo from "./components/Promo";
 import ScrollTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import scrollreveal from "scrollreveal";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   const [theme, setTheme] = useState("dark");
